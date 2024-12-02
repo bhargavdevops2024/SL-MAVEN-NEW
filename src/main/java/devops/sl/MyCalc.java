@@ -12,9 +12,6 @@ public class MyCalc {
 		MyCalc calc = new MyCalc();
 		Demo ob = new Demo();
 		System.out.println("Sum is : "+calc.sum(20, 10));
-		System.out.println("Diff is : "+calc.diff(20, 10));
-		System.out.println("Mul is : "+calc.mul(20, 10));
-		System.out.println("Div is : "+calc.div(20, 10));
 		ob.greet();
 		ob.show();
 	}
