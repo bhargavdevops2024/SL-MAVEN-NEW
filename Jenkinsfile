@@ -35,7 +35,7 @@ pipeline {
         }     
         stage('Demo Success') {
             steps {
-                echo "Final Successful"
+                echo "Final Successful after the Poll SCM trigger is enabled"
             }
         }    
 
